@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [](https://gideon-w.github.io/QR-Code-Component/)
+- Live Site URL: [QR Code Component](https://gideon-w.github.io/QR-Code-Component/)
 
 ### Built with
 
