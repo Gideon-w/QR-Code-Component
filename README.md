@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot)
+![](./Screenshot%202024-06-14%20at%2014-43-57%20Frontend%20Mentor%20QR%20code%20component.png)
 
 
 ### Links
