@@ -62,27 +62,24 @@ p {
 }
 
 .attribution {
-  font-size: 1.3rem;
+  margin-inline: auto;
+  margin: 2.5em;
+  font-size: calc(1rem + 1vw);
+  font-family: var(--FF-type, sans-serif);
   text-align: center;
-  margin-block: 0.5em;
-  padding: 0.5em;
-  font-family: var(--FF-Type);
   font-weight: var(--FW-bold);
-  color: #333;
 }
 .attribution a:link {
-  color: var(--Dark-Blue);
+  color: hsl(228, 45%, 44%);
   text-decoration: none;
 }
 .attribution a:visited {
-  color: var(--Grayish-Blue);
+  color: hsl(300, 34%, 33%);
 }
-
-.attribution a:hover,
-.attribution a:focus {
-  color: darkolivegreen;
+.attribution a:hover {
+  color: #333;
   text-decoration: underline;
 }
 .attribution a:active {
-  color: seagreen;
+  color: #050505;
 }
