@@ -70,11 +70,19 @@ p {
   font-weight: var(--FW-bold);
   color: #333;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+.attribution a:link {
+  color: var(--Dark-Blue);
+  text-decoration: none;
+}
+.attribution a:visited {
+  color: var(--Grayish-Blue);
 }
 
 .attribution a:hover,
 .attribution a:focus {
   color: darkolivegreen;
+  text-decoration: underline;
+}
+.attribution a:active {
+  color: chartreuse;
 }
