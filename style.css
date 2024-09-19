@@ -73,6 +73,9 @@ p {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
 }
+.attribution a:link:first-of-type {
+border: 1px solid var(--Grayish-Blue);
+}
 .attribution a:visited {
   color: hsl(300, 34%, 33%);
 }
