@@ -69,70 +69,63 @@ p {
   text-align: center;
   font-weight: var(--FW-bold);
 }
-/* General footer styles */
-footer.attribution {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 0.9em;
-  color: #333;
-}
 
 /* First link (Frontend Mentor) styles */
 /* Link state */
-footer.attribution a:first-of-type:link {
+.attribution a:first-of-type:link {
   color: #007BFF;
   text-decoration: underline;
   font-weight: bold;
 }
 
 /* Visited state */
-footer.attribution a:first-of-type:visited {
+.attribution a:first-of-type:visited {
   color: #0056b3;
 }
 
 /* Hover state */
-footer.attribution a:first-of-type:hover {
+.attribution a:first-of-type:hover {
   color: #003d80;
   text-decoration: none;
 }
 
 /* Focus state */
-footer.attribution a:first-of-type:focus {
+.attribution a:first-of-type:focus {
   outline: 2px solid #007BFF;
 }
 
 /* Active state */
-footer.attribution a:first-of-type:active {
+.attribution a:first-of-type:active {
   color: #001d40;
   text-decoration: underline;
 }
 
 /* Second link (Gideon-w profile) styles */
 /* Link state */
-footer.attribution a:last-of-type:link {
+.attribution a:last-of-type:link {
   color: #FF5733;
   text-decoration: none;
   font-style: italic;
 }
 
 /* Visited state */
-footer.attribution a:last-of-type:visited {
+.attribution a:last-of-type:visited {
   color: #C70039;
 }
 
 /* Hover state */
-footer.attribution a:last-of-type:hover {
+.attribution a:last-of-type:hover {
   color: #900C3F;
   text-decoration: underline;
 }
 
 /* Focus state */
-footer.attribution a:last-of-type:focus {
+.attribution a:last-of-type:focus {
   outline: 2px solid #FF5733;
 }
 
 /* Active state */
-footer.attribution a:last-of-type:active {
+.attribution a:last-of-type:active {
   color: #581845;
   text-decoration: none;
 }
