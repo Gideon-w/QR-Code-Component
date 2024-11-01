@@ -20,6 +20,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+@media (max-wdith: 32.5em) {
+  html {
+    font-size: 62.5%;
+  }
+}
 body {
   background-color: var(--Light-Gray);
   padding-inline: 1em;
@@ -27,7 +32,7 @@ body {
 }
 
 .container {
-  max-width: calc(20em + 5vw);
+  max-width: 20em;
   padding: 1em;
   background-color: var(--White);
   border-radius: 1em;
@@ -47,7 +52,7 @@ img {
 h1 {
   font-family: var(--FF-type);
   font-weight: var(--FW-bold);
-  font-size: calc(var(--FS-normal) + 0.8vw);
+  font-size: calc(var(--FS-normal) + 0.5rem);
   color: var(--Dark-Blue);
   margin-bottom: 1em;
   text-align: center;
@@ -55,7 +60,7 @@ h1 {
 p {
   font-family: var(--FF-type);
   font-weight: var(--FW-light);
-  font-size: calc(var(--FS-normal) + 0.3vw);
+  font-size: calc(var(--FS-normal) + 0.2rem);
   color: var(--Grayish-Blue);
   text-align: center;
   margin-bottom: 1em;
@@ -73,7 +78,7 @@ p {
 /* First link (Frontend Mentor) styles */
 /* Link state */
 .attribution a:first-of-type:link {
-  color: #007BFF;
+  color: #007bff;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -91,7 +96,7 @@ p {
 
 /* Focus state */
 .attribution a:first-of-type:focus {
-  outline: 2px solid #007BFF;
+  outline: 2px solid #007bff;
 }
 
 /* Active state */
@@ -103,25 +108,25 @@ p {
 /* Second link (Gideon-w profile) styles */
 /* Link state */
 .attribution a:last-of-type:link {
-  color: #FF5733;
+  color: #ff5733;
   text-decoration: none;
   font-style: italic;
 }
 
 /* Visited state */
 .attribution a:last-of-type:visited {
-  color: #C70039;
+  color: #c70039;
 }
 
 /* Hover state */
 .attribution a:last-of-type:hover {
-  color: #900C3F;
+  color: #900c3f;
   text-decoration: underline;
 }
 
 /* Focus state */
 .attribution a:last-of-type:focus {
-  outline: 2px solid #FF5733;
+  outline: 2px solid #ff5733;
 }
 
 /* Active state */
